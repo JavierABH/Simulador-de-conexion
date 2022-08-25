@@ -202,6 +202,7 @@ namespace Traceability_Simu
             string station_name = StationVali.Text;
             if (ser_num != "" && station_name != "")
             {
+                // 22222
                 string backcheck = connector.BackCheck_Serial(ser_num, station_name);
                 int status = Int32.Parse(backcheck.Split('|')[0]);
                 string function = backcheck.Split('|')[1];

@@ -202,7 +202,6 @@ namespace Traceability_Simu
             string station_name = StationVali.Text;
             if (ser_num != "" && station_name != "")
             {
-                // 22222
                 string backcheck = connector.BackCheck_Serial(ser_num, station_name);
                 int status = Int32.Parse(backcheck.Split('|')[0]);
                 string function = backcheck.Split('|')[1];
@@ -261,7 +260,6 @@ namespace Traceability_Simu
                                 MessageBoxButtons.OK, MessageBoxIcon.Error);
                         }
                     }
-                    // anexaaaa1
                     string reply = connector.InsertProcessDataWithFails(ser_num, station_name, function, ent_time, ext_time, pass_fail, fail_string, employee);
                     //If the data is uploaded correctly
                     if (reply == "OK" || reply.Split('|')[0] == "OK ")

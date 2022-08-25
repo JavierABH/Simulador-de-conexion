@@ -260,6 +260,7 @@ namespace Traceability_Simu
                                 MessageBoxButtons.OK, MessageBoxIcon.Error);
                         }
                     }
+                    // anexaaaa1
                     string reply = connector.InsertProcessDataWithFails(ser_num, station_name, function, ent_time, ext_time, pass_fail, fail_string, employee);
                     //If the data is uploaded correctly
                     if (reply == "OK" || reply.Split('|')[0] == "OK ")

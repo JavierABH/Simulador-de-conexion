@@ -1,0 +1,26 @@
+Respuestas actuales:
+Planta 1
+backcheck
+1|@proceso
+0|@proceso
+0|Fail: Serial no encontrado
+0|Fail: Estacion no encontrada
+0|Error: @exception
+
+InsertProcess
+OK
+Error: @exception
+
+Planta 2
+backcheck
+1|OK: Unidad correcta SN: @Serial
+0|Fail: @falla SN: @SERIAL
+puede ser
+0|Fail: No corresponde a proceso SN: @SERIAL
+0|Fail: Estacion no encontrada SN: @SERIAL
+0|Fail: Serial no encontrado SN: @SERIAL
+0|Error: @exception
+
+InsertProcess
+Ok: El serial fue insertado; SN: @SERIAL
+Error: @exception

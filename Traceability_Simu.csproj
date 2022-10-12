@@ -80,8 +80,9 @@
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
-    <Reference Include="WSConnectorSimu">
-      <HintPath>WSConnectorSimu\bin\Debug\WSConnectorSimu.dll</HintPath>
+    <Reference Include="WSConnectorSimu, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\WSConnectorSimu\bin\Debug\WSConnectorSimu.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

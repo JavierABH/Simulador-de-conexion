@@ -5,6 +5,8 @@ VisualStudioVersion = 17.2.32630.192
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Traceability_Simu", "Traceability_Simu.csproj", "{9C8D64AF-9886-491A-A9CD-0DDD4715293A}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Traceability Simu exe", "Traceability Simu exe\Traceability Simu exe.vdproj", "{0D0B6A7F-7ABF-4619-A16E-EAE5D448796D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,9 @@ Global
 		{9C8D64AF-9886-491A-A9CD-0DDD4715293A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9C8D64AF-9886-491A-A9CD-0DDD4715293A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9C8D64AF-9886-491A-A9CD-0DDD4715293A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D0B6A7F-7ABF-4619-A16E-EAE5D448796D}.Debug|Any CPU.ActiveCfg = Release
+		{0D0B6A7F-7ABF-4619-A16E-EAE5D448796D}.Debug|Any CPU.Build.0 = Release
+		{0D0B6A7F-7ABF-4619-A16E-EAE5D448796D}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

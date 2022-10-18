@@ -27,12 +27,8 @@ namespace Traceability_Simu
             new ProcessDP(){ NumberProcess = "NumberProcess", Station = "Station", Process = "Process"},
             new ProcessDP(){ NumberProcess = "1", Station = "ITA_LASER06", Process = "SMT APPLY PANEL LABEL PASS 1"},
             new ProcessDP(){ NumberProcess = "2", Station = "STA_ICTE14", Process = "TEST ICT"},
-            new ProcessDP(){ NumberProcess = "3", Station = "STA_FLASH32", Process = "FLASH PROGRAM"},
-            new ProcessDP(){ NumberProcess = "4", Station = "SOA_SINGPNL59", Process = "GENERAL ROUTER DEPANEL"},
-            new ProcessDP(){ NumberProcess = "5", Station = "ITA_AOI60", Process = "CONFORMAL INSPECTION PASS 1"},
-            new ProcessDP(){ NumberProcess = "6", Station = "STA_FNLFUNC193", Process = "TEST FINAL FUNCTIONAL"},
-            new ProcessDP(){ NumberProcess = "7", Station = "SOM_GP12_86", Process = "TEST GP12 PASS 1"},
-            new ProcessDP(){ NumberProcess = "8", Station = "SPM_SHIPCHKIN01", Process = "SHIPPING CHECK-IN"}
+            new ProcessDP(){ NumberProcess = "3", Station = "STA_FNLFUNC193", Process = "TEST FINAL FUNCTIONAL"},
+            new ProcessDP(){ NumberProcess = "4", Station = "SPM_SHIPCHKIN01", Process = "SHIPPING CHECK-IN"}
         };
 
         //For create base serial file
@@ -699,11 +695,11 @@ namespace Traceability_Simu
             }            
         }
 
-        private void buttonSearchDLL_Click_1(object sender, EventArgs e)
-        {
-            string filepath = AppDomain.CurrentDomain.BaseDirectory + @"packages";
-            System.Diagnostics.Process.Start("explorer.exe", filepath);
-        }
+        //private void buttonSearchDLL_Click_1(object sender, EventArgs e)
+        //{
+        //    string filepath = AppDomain.CurrentDomain.BaseDirectory + @"packages";
+        //    System.Diagnostics.Process.Start("explorer.exe", filepath);
+        //}
 
         private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -739,6 +735,11 @@ namespace Traceability_Simu
                 MessageBox.Show(ex.Message.ToString(), "Error to open PDF...",
                             MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+        }
+
+        private void buttonSearchDLL_Click_1(object sender, EventArgs e)
+        {
+
         }
     }
 

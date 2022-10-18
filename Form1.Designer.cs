@@ -50,8 +50,6 @@
             this.label3 = new System.Windows.Forms.Label();
             this.TxtSerialReg = new System.Windows.Forms.TextBox();
             this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.groupBox8 = new System.Windows.Forms.GroupBox();
-            this.buttonSearchDLL = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.DbVali = new System.Windows.Forms.DataGridView();
@@ -82,8 +80,8 @@
             this.toolStripComboBox1 = new System.Windows.Forms.ToolStripComboBox();
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.manualToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.functionsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.appToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.functionsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             this.tabPage2.SuspendLayout();
@@ -93,7 +91,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.dbTable)).BeginInit();
             this.groupBox4.SuspendLayout();
             this.tabPage1.SuspendLayout();
-            this.groupBox8.SuspendLayout();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.DbVali)).BeginInit();
             this.groupBox1.SuspendLayout();
@@ -111,7 +108,7 @@
             this.tabPage2.Location = new System.Drawing.Point(4, 22);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(932, 411);
+            this.tabPage2.Size = new System.Drawing.Size(861, 411);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Register";
             this.tabPage2.UseVisualStyleBackColor = true;
@@ -236,7 +233,7 @@
             this.groupBox5.Controls.Add(this.dbTable);
             this.groupBox5.Location = new System.Drawing.Point(6, 162);
             this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Size = new System.Drawing.Size(920, 243);
+            this.groupBox5.Size = new System.Drawing.Size(842, 243);
             this.groupBox5.TabIndex = 47;
             this.groupBox5.TabStop = false;
             this.groupBox5.Text = "Modify";
@@ -248,7 +245,7 @@
             this.dbTable.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dbTable.Location = new System.Drawing.Point(3, 16);
             this.dbTable.Name = "dbTable";
-            this.dbTable.Size = new System.Drawing.Size(914, 224);
+            this.dbTable.Size = new System.Drawing.Size(836, 224);
             this.dbTable.TabIndex = 1;
             // 
             // groupBox4
@@ -260,14 +257,14 @@
             this.groupBox4.Controls.Add(this.TxtSerialReg);
             this.groupBox4.Location = new System.Drawing.Point(521, 6);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(405, 150);
+            this.groupBox4.Size = new System.Drawing.Size(327, 150);
             this.groupBox4.TabIndex = 46;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Register new PCB";
             // 
             // buttonUpload
             // 
-            this.buttonUpload.Location = new System.Drawing.Point(181, 118);
+            this.buttonUpload.Location = new System.Drawing.Point(140, 118);
             this.buttonUpload.Name = "buttonUpload";
             this.buttonUpload.Size = new System.Drawing.Size(53, 23);
             this.buttonUpload.TabIndex = 40;
@@ -289,7 +286,7 @@
             // 
             this.TxtPartNumbReg.Location = new System.Drawing.Point(6, 84);
             this.TxtPartNumbReg.Name = "TxtPartNumbReg";
-            this.TxtPartNumbReg.Size = new System.Drawing.Size(393, 20);
+            this.TxtPartNumbReg.Size = new System.Drawing.Size(315, 20);
             this.TxtPartNumbReg.TabIndex = 39;
             // 
             // label3
@@ -305,44 +302,21 @@
             // 
             this.TxtSerialReg.Location = new System.Drawing.Point(6, 38);
             this.TxtSerialReg.Name = "TxtSerialReg";
-            this.TxtSerialReg.Size = new System.Drawing.Size(393, 20);
+            this.TxtSerialReg.Size = new System.Drawing.Size(315, 20);
             this.TxtSerialReg.TabIndex = 33;
             // 
             // tabPage1
             // 
-            this.tabPage1.Controls.Add(this.groupBox8);
             this.tabPage1.Controls.Add(this.label5);
             this.tabPage1.Controls.Add(this.groupBox2);
             this.tabPage1.Controls.Add(this.groupBox1);
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(932, 411);
+            this.tabPage1.Size = new System.Drawing.Size(861, 411);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Validation";
             this.tabPage1.UseVisualStyleBackColor = true;
-            // 
-            // groupBox8
-            // 
-            this.groupBox8.Controls.Add(this.buttonSearchDLL);
-            this.groupBox8.Location = new System.Drawing.Point(849, 6);
-            this.groupBox8.Name = "groupBox8";
-            this.groupBox8.Size = new System.Drawing.Size(80, 69);
-            this.groupBox8.TabIndex = 53;
-            this.groupBox8.TabStop = false;
-            this.groupBox8.Text = "Search dll";
-            // 
-            // buttonSearchDLL
-            // 
-            this.buttonSearchDLL.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.buttonSearchDLL.Location = new System.Drawing.Point(12, 38);
-            this.buttonSearchDLL.Name = "buttonSearchDLL";
-            this.buttonSearchDLL.Size = new System.Drawing.Size(56, 23);
-            this.buttonSearchDLL.TabIndex = 52;
-            this.buttonSearchDLL.Text = "DLL";
-            this.toolTip1.SetToolTip(this.buttonSearchDLL, "Open .dll location");
-            this.buttonSearchDLL.UseVisualStyleBackColor = true;
-            this.buttonSearchDLL.Click += new System.EventHandler(this.buttonSearchDLL_Click_1);
             // 
             // label5
             // 
@@ -357,7 +331,7 @@
             this.groupBox2.Controls.Add(this.DbVali);
             this.groupBox2.Location = new System.Drawing.Point(6, 81);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(921, 324);
+            this.groupBox2.Size = new System.Drawing.Size(846, 324);
             this.groupBox2.TabIndex = 31;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Data Saved";
@@ -389,7 +363,7 @@
             this.DbVali.RowHeadersWidth = 37;
             this.DbVali.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
             this.DbVali.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.CellSelect;
-            this.DbVali.Size = new System.Drawing.Size(915, 305);
+            this.DbVali.Size = new System.Drawing.Size(840, 305);
             this.DbVali.TabIndex = 36;
             // 
             // dataGridViewTextBoxColumn1
@@ -501,7 +475,7 @@
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Location = new System.Drawing.Point(6, 6);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(838, 69);
+            this.groupBox1.Size = new System.Drawing.Size(846, 69);
             this.groupBox1.TabIndex = 37;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "PCB Data";
@@ -604,7 +578,7 @@
             this.tabControl1.Location = new System.Drawing.Point(12, 27);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(940, 437);
+            this.tabControl1.Size = new System.Drawing.Size(869, 437);
             this.tabControl1.TabIndex = 45;
             // 
             // menuStrip1
@@ -614,7 +588,7 @@
             this.toolStripMenuItem1});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(953, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(892, 24);
             this.menuStrip1.TabIndex = 46;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -631,7 +605,7 @@
             this.plantToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripComboBox1});
             this.plantToolStripMenuItem.Name = "plantToolStripMenuItem";
-            this.plantToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.plantToolStripMenuItem.Size = new System.Drawing.Size(101, 22);
             this.plantToolStripMenuItem.Text = "Plant";
             // 
             // toolStripComboBox1
@@ -663,19 +637,19 @@
             this.manualToolStripMenuItem.Size = new System.Drawing.Size(199, 22);
             this.manualToolStripMenuItem.Text = "How to use";
             // 
-            // functionsToolStripMenuItem
-            // 
-            this.functionsToolStripMenuItem.Name = "functionsToolStripMenuItem";
-            this.functionsToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.functionsToolStripMenuItem.Text = "DLL Functions";
-            this.functionsToolStripMenuItem.Click += new System.EventHandler(this.functionsToolStripMenuItem_Click);
-            // 
             // appToolStripMenuItem
             // 
             this.appToolStripMenuItem.Name = "appToolStripMenuItem";
-            this.appToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.appToolStripMenuItem.Size = new System.Drawing.Size(149, 22);
             this.appToolStripMenuItem.Text = "App";
             this.appToolStripMenuItem.Click += new System.EventHandler(this.appToolStripMenuItem_Click);
+            // 
+            // functionsToolStripMenuItem
+            // 
+            this.functionsToolStripMenuItem.Name = "functionsToolStripMenuItem";
+            this.functionsToolStripMenuItem.Size = new System.Drawing.Size(149, 22);
+            this.functionsToolStripMenuItem.Text = "DLL Functions";
+            this.functionsToolStripMenuItem.Click += new System.EventHandler(this.functionsToolStripMenuItem_Click);
             // 
             // aboutToolStripMenuItem
             // 
@@ -696,7 +670,7 @@
             this.AutoScroll = true;
             this.AutoSize = true;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.ClientSize = new System.Drawing.Size(953, 466);
+            this.ClientSize = new System.Drawing.Size(892, 467);
             this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.menuStrip1);
             this.Cursor = System.Windows.Forms.Cursors.Default;
@@ -705,7 +679,7 @@
             this.MaximizeBox = false;
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Traceability Simu V1.0.0.0";
+            this.Text = "Traceability Simu V1.1.0";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.tabPage2.ResumeLayout(false);
             this.groupBox6.ResumeLayout(false);
@@ -718,7 +692,6 @@
             this.groupBox4.PerformLayout();
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();
-            this.groupBox8.ResumeLayout(false);
             this.groupBox2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.DbVali)).EndInit();
             this.groupBox1.ResumeLayout(false);
@@ -776,8 +749,6 @@
         private System.Windows.Forms.TextBox TxTSerialVali;
         private System.Windows.Forms.ComboBox StationVali;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.GroupBox groupBox8;
-        private System.Windows.Forms.Button buttonSearchDLL;
         private System.Windows.Forms.GroupBox groupBox7;
         private System.Windows.Forms.Button buttonPartNumber;
         private System.Windows.Forms.ToolTip toolTip1;
